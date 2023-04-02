@@ -6,7 +6,7 @@ using namespace std;
 
 string findstring(string s)
 {
-    int n = s.length();
+    int n = s.size();
     unordered_map<string, int> freq;
     int maxFreq = 0;
     string maxSubstring;
